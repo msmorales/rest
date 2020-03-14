@@ -18,7 +18,7 @@ $app->add(function ($req, $res, $next) {
 
 // Get All Customers
 $app->get('/api/customers', function(Request $request, Response $response){
-    $sql = "SELECT * FROM customers";
+    $sql = "SELECT * FROM personas";
 
     try{
         // Get DB Object
